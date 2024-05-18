@@ -116,7 +116,13 @@ Pasar no escopo da requisição json com os dados no beneficiário, como exemplo
 
 ## Build
 
-Baixar o fonte da api, e executar partir da classe TesteEkanApplication. Que esta no diretorio:
+Via linha de comando, navegue até o diretorio:
+
+Executa o comando para fazer o build.
 ```cmd
-/src/main/java/br/com/ekan/testeEkan
+mvn -version
+```
+Após gerar o build, executar a aplicação com o seguinte comando.
+```cmd
+mvn spring-boot:run
 ```
